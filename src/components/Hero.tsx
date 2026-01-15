@@ -90,7 +90,7 @@ const Hero = () => {
                <a
              href="/rohithcv.pdf" 
              download
-             className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary-glow transition-all duration-300 electric-glow hover:scale-105"
+              className="bg-gradient-primary hover:opacity-90 transition-opacity text-lg px-8"
             ></a>
               <Download className="mr-2 h-5 w-5" />
               Download Resume
