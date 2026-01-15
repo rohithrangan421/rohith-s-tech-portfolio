@@ -95,7 +95,7 @@ const Contact = () => {
               size="lg"
               variant="secondary"
               className="bg-background text-primary hover:bg-background/90 transition-colors text-lg px-8"
-              onClick={() => window.location.href = "mailto:rohith.rangan@example.com"}
+              onClick={() => window.location.href = "mailto:rohithrangan421@gmail.com"}
             >
               Send Me an Email
             </Button>
