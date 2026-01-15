@@ -12,8 +12,15 @@ const Skills = () => {
       skills: ["Python", "Frappe/ERPNext", "HTML/CSS", "JavaScript"],
     },
     {
-      category: "Testing & QA",
-      skills: ["Manual Testing", "QA Concepts", "Bug Reporting", "Test Case Design"],
+      category: "ERPNext Implementation",
+      skills: [
+        "Requirement Analysis",
+        "ERPNext Configuration",
+        "Workflow Setup",
+        "Functional Testing",
+        "User Acceptance Testing (UAT)",
+        "Data Validation",
+      ],
     },
     {
       category: "Database & Tools",
@@ -21,7 +28,12 @@ const Skills = () => {
     },
     {
       category: "Soft Skills",
-      skills: ["Analytical Thinking", "Team Collaboration", "Problem Solving", "Attention to Detail"],
+      skills: [
+        "Analytical Thinking",
+        "Team Collaboration",
+        "Problem Solving",
+        "Attention to Detail",
+      ],
     },
   ];
 
@@ -58,7 +70,9 @@ const Skills = () => {
                     key={skill}
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={isInView ? { opacity: 1, scale: 1 } : {}}
-                    transition={{ delay: 0.3 + categoryIndex * 0.1 + skillIndex * 0.05 }}
+                    transition={{
+                      delay: 0.3 + categoryIndex * 0.1 + skillIndex * 0.05,
+                    }}
                     className="px-4 py-2 bg-secondary text-secondary-foreground rounded-lg text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
                   >
                     {skill}

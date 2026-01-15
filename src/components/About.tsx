@@ -11,12 +11,14 @@ const About = () => {
     {
       icon: Code2,
       title: "Development",
-      description: "Python & ERPNext expertise with hands-on project experience",
+      description:
+        "Python & ERPNext expertise with hands-on project experience",
     },
     {
       icon: TestTube,
-      title: "Quality Assurance",
-      description: "Manual testing, bug reporting, and workflow validation",
+      title: "ERPNext Implementation",
+      description:
+        "Requirement analysis, system configuration, workflow setup, testing, and user validation",
     },
     {
       icon: Database,
@@ -52,11 +54,16 @@ const About = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-lg text-muted-foreground leading-relaxed mb-12 text-center"
           >
-            A passionate fresher with hands-on experience as a Python Developer Trainee and ERPNext Developer Trainee. 
-            Skilled in understanding requirements, validating workflows, testing modules, reporting bugs, and collaborating 
-            with teams. I've worked on real-time systems including Turf Booking System, Healthcare Appointment System, 
-            Taxi Service System, and Online Course Portal. I bring strong analytical skills, attention to detail, and 
-            a solid understanding of SDLC to every project.
+            A motivated Junior ERPNext Developer with 7 months of hands-on
+            experience in developing and customizing ERPNext/Frappe
+            applications. Experienced in understanding business requirements,
+            configuring workflows, implementing server-side and client-side
+            logic, testing modules, and resolving bugs. Worked on real-time
+            systems including Route sales app, Healthcare Appointment System,
+            Taxi Service System, and Online Course Portal. Possess strong
+            analytical skills, attention to detail, and a solid understanding of
+            the Software Development Life Cycle (SDLC), with a collaborative and
+            problem-solving approach.
           </motion.p>
 
           <div className="grid md:grid-cols-2 gap-6">

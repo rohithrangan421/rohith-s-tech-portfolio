@@ -60,8 +60,8 @@ const Hero = () => {
             transition={{ delay: 0.9 }}
             className="text-base md:text-lg text-muted-foreground mb-12 max-w-3xl mx-auto"
           >
-            Passionate about building robust applications and ensuring quality through comprehensive testing.
-            Specializing in Frappe/ERPNext development and Python automation.
+            Passionate about building robust applications and delivering efficient ERP solutions through end-to-end implementation. 
+            Specializing in Frappe/ERPNext development, system configuration, workflow customization, and Python automation.
           </motion.p>
 
           <motion.div

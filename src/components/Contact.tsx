@@ -89,7 +89,7 @@ const Contact = () => {
               Ready to Work Together?
             </h3>
             <p className="text-primary-foreground/90 mb-8 max-w-xl mx-auto">
-              Let's discuss how I can contribute to your team with my skills in Python development, ERPNext, and quality assurance.
+              Let's discuss how I can contribute to your team with my skills in Python development, ERPNext implementation and workflow customization..
             </p>
             <Button
               size="lg"
