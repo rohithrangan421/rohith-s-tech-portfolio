@@ -1,7 +1,13 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Database, Calendar, Car, GraduationCap } from "lucide-react";
+import {
+  ExternalLink,
+  Database,
+  Calendar,
+  Car,
+  GraduationCap,
+} from "lucide-react";
 
 const Projects = () => {
   const ref = useRef(null);
@@ -9,32 +15,57 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Turf Booking System",
-      description: "Complete turf management solution with booking workflow, payment integration, and comprehensive reporting system.",
-      tech: ["Frappe", "ERPNext", "Python"],
+      title: "Route Sales Management System",
+      description:
+        "End-to-end route sales solution for managing field sales operations, customer visits, order processing, and real-time sales tracking.",
+      tech: ["Frappe", "ERPNext", "Python", "React", "Material UI"],
       icon: Database,
-      features: ["Turf setup & management", "Booking workflow", "Payment processing", "Reports & analytics"],
+      features: [
+        "Route & sales area setup",
+        "Customer & retailer management",
+        "Order booking & invoice generation",
+        "Payment collection tracking",
+        "Sales reports & performance analytics",
+      ],
     },
     {
       title: "Healthcare Appointment System",
-      description: "Patient care management platform with doctor registration, appointment scheduling, and prescription workflows.",
+      description:
+        "Patient care management platform with doctor registration, appointment scheduling, and prescription workflows.",
       tech: ["ERPNext", "Python", "SQL"],
       icon: Calendar,
-      features: ["Patient/doctor registration", "Appointment booking", "Prescription management", "Medical records"],
+      features: [
+        "Patient/doctor registration",
+        "Appointment booking",
+        "Prescription management",
+        "Medical records",
+      ],
     },
     {
       title: "Taxi Service Management",
-      description: "End-to-end taxi service solution managing drivers, vehicles, availability, and ride bookings.",
+      description:
+        "End-to-end taxi service solution managing drivers, vehicles, availability, and ride bookings.",
       tech: ["Frappe", "Python", "JavaScript"],
       icon: Car,
-      features: ["Driver/car registration", "Availability check", "Ride bookings", "Real-time tracking"],
+      features: [
+        "Driver/car registration",
+        "Availability check",
+        "Ride bookings",
+        "Real-time tracking",
+      ],
     },
     {
       title: "Online Course Portal",
-      description: "Educational platform for course management with student enrollment, lessons, assignments, and certification.",
+      description:
+        "Educational platform for course management with student enrollment, lessons, assignments, and certification.",
       tech: ["ERPNext", "Python", "HTML/CSS"],
       icon: GraduationCap,
-      features: ["Student enrollment", "Course lessons", "Assignment tracking", "Certificate generation"],
+      features: [
+        "Student enrollment",
+        "Course lessons",
+        "Assignment tracking",
+        "Certificate generation",
+      ],
     },
   ];
 
@@ -79,10 +110,15 @@ const Projects = () => {
                 </p>
 
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold mb-2 text-foreground">Key Features:</h4>
+                  <h4 className="text-sm font-semibold mb-2 text-foreground">
+                    Key Features:
+                  </h4>
                   <ul className="space-y-1">
                     {project.features.map((feature) => (
-                      <li key={feature} className="text-sm text-muted-foreground flex items-center">
+                      <li
+                        key={feature}
+                        className="text-sm text-muted-foreground flex items-center"
+                      >
                         <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2" />
                         {feature}
                       </li>

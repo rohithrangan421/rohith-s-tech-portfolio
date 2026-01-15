@@ -51,7 +51,7 @@ const Hero = () => {
             transition={{ delay: 0.7 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            Python Developer | ERPNext Developer 
+            Python Developer | ERPNext Developer
           </motion.p>
 
           <motion.p
@@ -60,8 +60,10 @@ const Hero = () => {
             transition={{ delay: 0.9 }}
             className="text-base md:text-lg text-muted-foreground mb-12 max-w-3xl mx-auto"
           >
-            Passionate about building robust applications and delivering efficient ERP solutions through end-to-end implementation. 
-            Specializing in Frappe/ERPNext development, system configuration, workflow customization, and Python automation.
+            Passionate about building robust applications and delivering
+            efficient ERP solutions through end-to-end implementation.
+            Specializing in Frappe/ERPNext development, system configuration,
+            workflow customization, and Python automation.
           </motion.p>
 
           <motion.div
@@ -84,14 +86,16 @@ const Hero = () => {
               className="text-lg px-8 border-2"
               onClick={() => {
                 // In a real implementation, this would trigger a download
-                alert("Resume download would start here. Please add your resume file to the public folder.");
+                alert(
+                  "Resume download would start here. Please add your resume file to the public folder."
+                );
               }}
             >
-               <a
-             href="/rohithcv.pdf" 
-             download
-              className="bg-gradient-primary hover:opacity-90 transition-opacity text-lg px-8"
-            ></a>
+              <a
+                href="/rohithcv.pdf"
+                download
+                className="bg-gradient-primary hover:opacity-90 transition-opacity text-lg px-8"
+              ></a>
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
@@ -111,7 +115,7 @@ const Hero = () => {
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
           className="text-muted-foreground"
-        >
+        > 
           <ArrowDown size={32} />
         </motion.div>
       </motion.div>
