@@ -60,7 +60,7 @@ const Experience = () => {
                   className="md:mt-8"
                 >
                   <p className="text-sm font-semibold text-primary mb-2">6 Months</p>
-                  <p className="text-sm text-muted-foreground">Training Period</p>
+                  <p className="text-sm text-muted-foreground">Jr ERPNext Developer</p>
                 </motion.div>
               </div>
 
