@@ -12,26 +12,26 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "rohith.rangan@example.com",
+      value: "rohithrangan421@example.com",
       href: "mailto:rohith.rangan@example.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 XXXXX XXXXX",
-      href: "tel:+91XXXXXXXXXX",
+      value: "+91 6235204532",
+      href: "tel:+916235204532",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/rohithrangan",
-      href: "https://linkedin.com/in/rohithrangan",
+      href: "www.linkedin.com/in/rohith-rangan-968607277",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/rohithrangan",
-      href: "https://github.com/rohithrangan",
+      value: "github.com/rohithrangan421",
+      href: "https://github.com/rohithrangan421",
     },
   ];
 
