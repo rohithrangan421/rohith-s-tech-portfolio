@@ -73,10 +73,10 @@ const Experience = () => {
               >
                 <div className="bg-card p-8 rounded-xl shadow-soft border border-border hover:shadow-medium transition-all duration-300">
                   <h3 className="text-2xl font-heading font-bold mb-2">
-                    ERPNext Developer Trainee
+                    Jr ERPNext Developer 
                   </h3>
                   <p className="text-primary font-semibold mb-6">
-                    Faircode Technologies
+                    Faircode Infotech
                   </p>
 
                   <div className="space-y-3">

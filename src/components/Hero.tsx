@@ -51,7 +51,7 @@ const Hero = () => {
             transition={{ delay: 0.7 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            Python Developer | ERPNext Developer | QA Analyst
+            Python Developer | ERPNext Developer 3
           </motion.p>
 
           <motion.p
@@ -87,6 +87,11 @@ const Hero = () => {
                 alert("Resume download would start here. Please add your resume file to the public folder.");
               }}
             >
+              <a 
+              href="/rohithcv.pdf" 
+              download="RohithResume.pdf"
+              className="inline-block"
+            ></a>
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
